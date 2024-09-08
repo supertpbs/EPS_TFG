@@ -1,0 +1,64 @@
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\bin\Debug\ProyectoCOM_03.dll
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\bin\Debug\ProyectoCOM_03.pdb
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.dll
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.pdb
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.csproj.GenerateResource.cache
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\rutina\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.MainForm.resources
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\bin\Debug\ProyectoCOM_03.dll
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\bin\Debug\ProyectoCOM_03.pdb
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.MainForm.resources
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.Properties.Resources.resources
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.csproj.GenerateResource.cache
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.dll
+C:\Users\super\OneDrive - Universitat de les Illes Balears\Escriptori\TP\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03\obj\Debug\ProyectoCOM_03.pdb
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.csproj.AssemblyReference.cache
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.MainForm.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.Properties.Resources.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.csproj.GenerateResource.cache
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.csproj.CoreCompileInputs.cache
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.dll
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.pdb
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\bin\Debug\ProyectoCOM_03.dll
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\bin\Debug\ProyectoCOM_03.pdb
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_FILE.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_PARAM.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_PLOT.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_TREE.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F2_0.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F2_1.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F2_2.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F2_3.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F2_4.resources
+E:\uib\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.C0.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\bin\Debug\ProyectoCOM_03.dll
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\bin\Debug\ProyectoCOM_03.pdb
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.csproj.AssemblyReference.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_FILE.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_PARAM.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_PLOT.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.F_TREE.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.MainForm.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.Properties.Resources.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.csproj.GenerateResource.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.csproj.CoreCompileInputs.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.dll
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.pdb
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - copia\obj\Debug\ProyectoCOM_03.csproj.ResolveComReference.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.csproj.AssemblyReference.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.csproj.ResolveComReference.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.F_FILE.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.F_PARAM.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.F_PLOT.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.F_TREE.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.MainForm.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.Properties.Resources.resources
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.csproj.GenerateResource.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.csproj.CoreCompileInputs.cache
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.dll
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\obj\Debug\ProyectoCOM_03.pdb
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\bin\Debug\ProyectoCOM_03.dll
+E:\2 - UIB\4.1 aurea mediocritas\tfg\class Library\ProyectoCOM_03 - 22-08\bin\Debug\ProyectoCOM_03.pdb
