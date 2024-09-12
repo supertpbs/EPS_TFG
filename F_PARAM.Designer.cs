@@ -235,7 +235,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.39513F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 69.60487F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 137F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 138F));
             this.tableLayoutPanel1.Controls.Add(this.L_ilum, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.num_ilum, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 9);
@@ -723,7 +723,7 @@
             // ch_calef
             // 
             this.ch_calef.AutoSize = true;
-            this.ch_calef.Location = new System.Drawing.Point(334, 353);
+            this.ch_calef.Location = new System.Drawing.Point(333, 353);
             this.ch_calef.Name = "ch_calef";
             this.ch_calef.Size = new System.Drawing.Size(25, 19);
             this.ch_calef.TabIndex = 56;
@@ -733,7 +733,7 @@
             // ch_aa_ext
             // 
             this.ch_aa_ext.AutoSize = true;
-            this.ch_aa_ext.Location = new System.Drawing.Point(334, 403);
+            this.ch_aa_ext.Location = new System.Drawing.Point(333, 403);
             this.ch_aa_ext.Name = "ch_aa_ext";
             this.ch_aa_ext.Size = new System.Drawing.Size(25, 19);
             this.ch_aa_ext.TabIndex = 55;
@@ -743,7 +743,7 @@
             // ch_aa_int
             // 
             this.ch_aa_int.AutoSize = true;
-            this.ch_aa_int.Location = new System.Drawing.Point(334, 378);
+            this.ch_aa_int.Location = new System.Drawing.Point(333, 378);
             this.ch_aa_int.Name = "ch_aa_int";
             this.ch_aa_int.Size = new System.Drawing.Size(25, 19);
             this.ch_aa_int.TabIndex = 54;
@@ -818,7 +818,7 @@
             // ch_termo
             // 
             this.ch_termo.AutoSize = true;
-            this.ch_termo.Location = new System.Drawing.Point(334, 328);
+            this.ch_termo.Location = new System.Drawing.Point(333, 328);
             this.ch_termo.Name = "ch_termo";
             this.ch_termo.Size = new System.Drawing.Size(25, 19);
             this.ch_termo.TabIndex = 53;
@@ -969,7 +969,7 @@
             // 
             this.ch_Bomba.AutoSize = true;
             this.ch_Bomba.Enabled = false;
-            this.ch_Bomba.Location = new System.Drawing.Point(334, 503);
+            this.ch_Bomba.Location = new System.Drawing.Point(333, 503);
             this.ch_Bomba.Name = "ch_Bomba";
             this.ch_Bomba.Size = new System.Drawing.Size(25, 19);
             this.ch_Bomba.TabIndex = 62;
@@ -1014,7 +1014,7 @@
             this.ch_prve.AutoSize = true;
             this.ch_prve.Checked = true;
             this.ch_prve.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ch_prve.Location = new System.Drawing.Point(334, 553);
+            this.ch_prve.Location = new System.Drawing.Point(333, 553);
             this.ch_prve.Name = "ch_prve";
             this.ch_prve.Size = new System.Drawing.Size(25, 19);
             this.ch_prve.TabIndex = 57;
@@ -1091,7 +1091,7 @@
             this.p_prve.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.p_prve.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.p_prve.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(51)))));
-            this.p_prve.Location = new System.Drawing.Point(365, 553);
+            this.p_prve.Location = new System.Drawing.Point(364, 553);
             this.p_prve.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1114,7 +1114,7 @@
             this.p_scfv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.p_scfv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.p_scfv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(51)))));
-            this.p_scfv.Location = new System.Drawing.Point(365, 578);
+            this.p_scfv.Location = new System.Drawing.Point(364, 578);
             this.p_scfv.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1137,7 +1137,7 @@
             this.p_scpis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.p_scpis.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.p_scpis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(51)))));
-            this.p_scpis.Location = new System.Drawing.Point(365, 603);
+            this.p_scpis.Location = new System.Drawing.Point(364, 603);
             this.p_scpis.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1160,7 +1160,7 @@
             this.p_scsm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.p_scsm.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.p_scsm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(51)))));
-            this.p_scsm.Location = new System.Drawing.Point(365, 628);
+            this.p_scsm.Location = new System.Drawing.Point(364, 628);
             this.p_scsm.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1183,7 +1183,7 @@
             this.p_scclima.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.p_scclima.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.p_scclima.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(41)))), ((int)(((byte)(51)))));
-            this.p_scclima.Location = new System.Drawing.Point(365, 653);
+            this.p_scclima.Location = new System.Drawing.Point(364, 653);
             this.p_scclima.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1204,7 +1204,7 @@
             // ch_scfv
             // 
             this.ch_scfv.AutoSize = true;
-            this.ch_scfv.Location = new System.Drawing.Point(334, 578);
+            this.ch_scfv.Location = new System.Drawing.Point(333, 578);
             this.ch_scfv.Name = "ch_scfv";
             this.ch_scfv.Size = new System.Drawing.Size(25, 19);
             this.ch_scfv.TabIndex = 81;
@@ -1214,7 +1214,7 @@
             // ch_scpis
             // 
             this.ch_scpis.AutoSize = true;
-            this.ch_scpis.Location = new System.Drawing.Point(334, 603);
+            this.ch_scpis.Location = new System.Drawing.Point(333, 603);
             this.ch_scpis.Name = "ch_scpis";
             this.ch_scpis.Size = new System.Drawing.Size(25, 19);
             this.ch_scpis.TabIndex = 82;
@@ -1224,7 +1224,7 @@
             // ch_scsm
             // 
             this.ch_scsm.AutoSize = true;
-            this.ch_scsm.Location = new System.Drawing.Point(334, 628);
+            this.ch_scsm.Location = new System.Drawing.Point(333, 628);
             this.ch_scsm.Name = "ch_scsm";
             this.ch_scsm.Size = new System.Drawing.Size(25, 19);
             this.ch_scsm.TabIndex = 83;
@@ -1234,7 +1234,7 @@
             // ch_scclima
             // 
             this.ch_scclima.AutoSize = true;
-            this.ch_scclima.Location = new System.Drawing.Point(334, 653);
+            this.ch_scclima.Location = new System.Drawing.Point(333, 653);
             this.ch_scclima.Name = "ch_scclima";
             this.ch_scclima.Size = new System.Drawing.Size(25, 19);
             this.ch_scclima.TabIndex = 84;

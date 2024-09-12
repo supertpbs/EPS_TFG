@@ -372,13 +372,15 @@
             this.c_cont.Dock = System.Windows.Forms.DockStyle.Fill;
             this.c_cont.FormattingEnabled = true;
             this.c_cont.Items.AddRange(new object[] {
-            "CPM",
+            "Comptador",
             "Bateria de comptadors",
-            "Quadre General"});
+            "Quadre general",
+            "Subquadre"});
             this.c_cont.Location = new System.Drawing.Point(181, 243);
             this.c_cont.Name = "c_cont";
             this.c_cont.Size = new System.Drawing.Size(157, 24);
             this.c_cont.TabIndex = 38;
+            this.c_cont.SelectedIndexChanged += new System.EventHandler(this.c_cont_SelectedIndexChanged);
             // 
             // c_prot
             // 
@@ -386,9 +388,11 @@
             this.c_prot.FormattingEnabled = true;
             this.c_prot.Items.AddRange(new object[] {
             "NO",
+            "Tipus 1",
+            "Tipus 1+2",
             "Tipus 2",
-            "Tipus 3",
-            "Tipus 2+3"});
+            "Tipus 2+3",
+            "Tipus 3"});
             this.c_prot.Location = new System.Drawing.Point(181, 274);
             this.c_prot.Name = "c_prot";
             this.c_prot.Size = new System.Drawing.Size(157, 24);

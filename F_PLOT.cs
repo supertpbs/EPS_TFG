@@ -52,11 +52,13 @@ namespace ProyectoCOM_03
             int M = Convert.ToInt32(AMOD.Text.ToString());
             double res = Convert.ToDouble(N_RES.Value);
 
-            double F = Math.Ceiling(MOD * (1 + res));
-
+            double F = Math.Ceiling(MOD * (1 + res/100)/M);
+                
             MMM = MMM + F.ToString() + " Files " + M.ToString() + " Mòd. DIN \n"+MOD.ToString()+ " Mòd. DIN Aparamenta\n" + Convert.ToString(Math.Round(MOD*res/100))+ " Mòd. DIN Reserva\n" + Convert.ToString(Math.Round(MOD*(1+res/100)))+ " Mòd. DIN Totals";
+            string str2 = c_cont.Text;
+            string str3 = c_prot.Text;
 
-            D1.DrawTREE(ROOT,1,TROOT.CSS(),MMM);
+            D1.DrawTREE(ROOT,1,TROOT.CSS(),MMM,str2,str3);
 
         }
         private void TREE_BT_Click(object sender, EventArgs e)
@@ -79,6 +81,11 @@ namespace ProyectoCOM_03
         }
 
         private void B_Esq_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void c_cont_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

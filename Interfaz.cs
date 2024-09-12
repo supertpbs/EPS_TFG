@@ -28,32 +28,62 @@ namespace ProyectoCOM_03
 
 
         //******MetodosGUINOaccesibles******//
-        public void DrawTREE(COMPONENTE ROOT, double zoom = 1,double cs=0.3, string mod ="Armari d'Empotrar")
+        public void DrawTREE(COMPONENTE ROOT, double zoom = 1,double cs=0.3, string mod ="Armari d'Empotrar",string cont = "a Comptador",string prot = "NO")
         {
             Draw d1 = new Draw();
             Point3d S0 = d1.Cargarpunto("Seleccóna el punt d'insercció");
-            Point3d S1 = new Point3d(S0.X - 20, S0.Y, 0);
-            d1.DrawText(new Point3d(S0.X - 15, S0.Y + 2.5, 0), "230/400V",2);
+            Point3d S1 = new Point3d(S0.X - 40, S0.Y, 0);
+            d1.DrawText(new Point3d(S0.X - 25, S0.Y + 2.5, 0), "a "+cont,2);
             d1.DrawLine(S0, S1);
-            //CPM
-            Point3d pt15 = new Point3d(S1.X - 10, S1.Y + 4, 0);
-            d1.DrawRect(pt15, 8, 10);
-            d1.DrawText(new Point3d(pt15.X + 5, pt15.Y - 4, 0), "CPM", 3, 0, 0, true);
-            Point3d pt16 = new Point3d(-S1.X - 2, S1.Y + 2, 0);
-            // d1.DrawText(pt16, "CPM");
-            Point3d S2 = new Point3d(S1.X - 10, S1.Y, 0);
-            Point3d S3 = new Point3d(S2.X - 40, S2.Y, 0);
-            d1.DrawLine(S2, S3);
-            Point3d S4 = new Point3d(S3.X, S3.Y - 5, 0);
-            d1.DrawLine(S3, S4);
+
+            Point3d S2 = new Point3d(S0.X - 1, S0.Y+1, 0);
+            
+            Point3d S3 = new Point3d(S0.X - 1, S0.Y-1, 0);
+            d1.DrawLine(S0, S2);
+            d1.DrawLine(S0, S3);
+
+            Point3d S4 = new Point3d(S1.X, S1.Y - 5, 0);
+            d1.DrawLine(S1, S4);
             d1.DIB(S4, ROOT);    //CG
 
+
+            if (prot != "NO")
+            {
+                Point3d Pt1 = new Point3d(S4.X, S4.Y, 0);
+                Point3d Pt2 = new Point3d(Pt1.X-20, Pt1.Y, 0);
+                d1.DrawLine(Pt1,Pt2);
+                Point3d Pt3 = new Point3d(Pt2.X, Pt2.Y-5, 0);
+                d1.DrawLine(Pt2, Pt3);
+
+                Point3d PtL = new Point3d(Pt3.X-2, Pt3.Y, 0);        
+                Point3d PtB = new Point3d(Pt3.X, Pt3.Y - 10, 0);
+
+                d1.DrawRect(PtL, 10, 4);
+                Point3d PtR = new Point3d(Pt2.X + 2, Pt3.Y, 0);
+                d1.DrawLine(PtL,PtB);
+                d1.DrawLine(PtR, PtB);
+                Point3d Ptb2 = new Point3d(PtB.X,PtB.Y-4,0);
+                Point3d PttR = new Point3d(Ptb2.X + 2,Ptb2.Y, 0);
+                Point3d PttL = new Point3d(Ptb2.X - 2, Ptb2.Y, 0);
+                d1.DrawLine(Ptb2, PtB);
+
+                d1.DrawLine(PttL, PttR);
+                Point3d PttR2 = new Point3d(PttR.X - 0.75, PttR.Y-1.5, 0);
+                Point3d PttL2 = new Point3d(PttL.X + 0.75, PttL.Y-1.5, 0);
+                d1.DrawLine(PttL2, PttR2);
+                Point3d PttR3 = new Point3d(PttR2.X - 0.75, PttR2.Y-1.5, 0);
+                Point3d PttL3 = new Point3d(PttL2.X + 0.75, PttL2.Y-1.5, 0);
+                d1.DrawLine(PttL3, PttR3);
+
+                PtR = new Point3d(PtR.X+2,PtR.Y-1, 0);
+                d1.DrawText(PtR,"Prot.\nSobret.\n"+prot,1.6);
+            }
             //Protector sobretensions
             COMPONENTE CTEMP = ROOT;
 
             //
             string CUADRO = "Quadre Elèctric";
-            d1.DrawText(new Point3d(S4.X,S4.Y+25,0),"QUADRE ELÈCTRIC",6,0,0,false,300);
+            d1.DrawText(new Point3d(S4.X-30,S4.Y+25,0),"QUADRE ELÈCTRIC",6,0,0,false,300);
             string PPM = "Pot. Màxima = " + Convert.ToString(Math.Round(ROOT.trif ? ROOT.IC * C.V * 3 : ROOT.IC * C.V, 2)) + " W\n";
             double PN = Math.Round((ROOT.IR + ROOT.IS + ROOT.IT) * C.V);
             PPM = PPM + "Pot. Nominal = " + PN.ToString()+" * "+Convert.ToString(Math.Round(cs/100,2))+" = " +Convert.ToString(Math.Round(cs*PN/100,0))  + " W\n";
@@ -89,15 +119,15 @@ namespace ProyectoCOM_03
                 }
                 PPM = PPM + "= " + Convert.ToString(Math.Round(cs/100*(Imax - Imin) * C.V, 2)) + "W ("+Math.Round(Imin,2)+" A-"+Math.Round(Imax,2)+" A)";
             }
-            d1.DrawText(new Point3d(S0.X - 50, S0.Y - 6, 0), PPM, 1.6, 0, 0, false, 60);
-            d1.DrawText(new Point3d(S0.X - 115, S0.Y - 4, 0), mod, 1.6, 0, 0, false, 60);
+            d1.DrawText(new Point3d(S0.X - 20, S0.Y - 6, 0), PPM, 1.6, 0, 0, false, 60);
+            d1.DrawText(new Point3d(S0.X +25, S0.Y - 4, 0), mod, 1.6, 0, 0, false, 60);
             (int depth, int width) = RECORRER(CTEMP);
             
             Point3d PTEMP = new Point3d(S4.X-20*width/2,S4.Y,0);
 
             Point3d DF = d1.DRAWLOOP(PTEMP, CTEMP,depth);
-            double LL = DF.X-PTEMP.X+30;
-            d1.DrawRect(new Point3d(S0.X - 80, S0.Y + 10, 0), depth*20+30, LL);
+            double LL = DF.X-PTEMP.X+30+25;
+            d1.DrawRect(new Point3d(S0.X - 70, S0.Y + 10, 0), depth*20+30,Math.Max(LL,140));
         }
         private (int, int) RECORRER(COMPONENTE CTEMP2, (int, int) size = default, int depth = 0)
         {

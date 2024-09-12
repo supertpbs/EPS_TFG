@@ -470,6 +470,13 @@ namespace ProyectoCOM_03
             MOD = 0;
             I1LOOP(this.IG);
             I2LOOP(this.IG, Convert.ToDouble(CS.Value) / 100);
+            if (this.IG.trif == true) {
+                MOD += 4;
+            }
+            else
+            {
+                MOD += 2;
+            }
 
             MainForm DOCKPARENT = this.Parent.Parent as MainForm;
             F_PLOT TP = DOCKPARENT.OpenForm<F_PLOT>() as F_PLOT;
